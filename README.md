@@ -6,5 +6,5 @@ The config files will stay persistent and should only be used if you got your ow
 ## Initialize
 
 ```bash
-wget https://raw.githubusercontent.com/KilianB/bash/main/setup.sh | bash
+wget - O -https://raw.githubusercontent.com/KilianB/bash/main/setup.sh | bash
 ```
