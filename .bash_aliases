@@ -1,4 +1,5 @@
-alias sshc="cat ~/.ssh/config"
+alias sshc='cat ~/.ssh/config |grep -vi "hostname" | grep "Host"'
+alias sshcv="cat ~/.ssh/config"
 alias ..="cd .."
 alias hgrep='history | grep'
 alias list-services='systemctl --type=service --state=running'
