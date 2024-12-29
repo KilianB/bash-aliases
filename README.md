@@ -7,7 +7,7 @@ The config files will stay persistent and should only be used if you got your ow
 
 ```bash
 wget -O - https://raw.githubusercontent.com/KilianB/bash/main/setup.sh | bash
-source ~/.hash
+source ~/.bashrc
 ```
 
 | Command       |                                            |
