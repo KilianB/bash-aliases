@@ -6,4 +6,4 @@ wget -O ~/bash_conf/.bash_aliases https://raw.githubusercontent.com/KilianB/bash
 grep -qxF '. ~/bash_conf/.bash_aliases' ~/.bashrc || echo '. ~/bash_conf/.bash_aliases' >> ~/.bashrc
 
 ## add a crontap to update scripts? currently alias alias-update needs to be run
-source ~/.bashrc
+echo "Run source ~/.bashrc"
