@@ -1,6 +1,6 @@
 alias sshc='cat ~/.ssh/config |grep -vi "hostname" | grep "Host"'
-alias sshcv="cat ~/.ssh/config"
-alias ..="cd .."
+alias {sshcv,sshcf}='cat ~/.ssh/config'
+alias ..='cd ..'
 alias hgrep='history | grep'
 alias list-services='systemctl --type=service --state=running'
 alias alias-update='wget -O ~/bash_conf/.bash_aliases https://raw.githubusercontent.com/KilianB/bash/main/.bash_aliases'
